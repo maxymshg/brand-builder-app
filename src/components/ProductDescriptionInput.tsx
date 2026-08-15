@@ -109,7 +109,7 @@ export const ProductDescriptionInput: React.FC<ProductDescriptionInputProps> = (
           {/* Visual Model Selector */}
           <div className="flex items-center bg-black border border-white/20 px-2.5 py-1.5 text-[9px] font-mono uppercase">
             <span className="text-white/40 font-bold mr-1.5">Visual Engine:</span>
-            <span className="text-white font-bold">Studio Packshot Engine</span>
+            <span className="text-white font-bold">Nano-Banana (Flash Lite Image)</span>
           </div>
         </div>
       </div>

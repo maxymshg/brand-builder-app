@@ -307,7 +307,8 @@ function generateProceduralStudioPackshot(
   </svg>
   `;
 
-  return `data:image/svg+xml;utf8,${encodeURIComponent(svg.trim())}`;
+  const base64Data = Buffer.from(svg.trim()).toString('base64');
+  return `data:image/svg+xml;base64,${base64Data}`;
 }
 
 // Robust text extraction fallback when Gemini models experience temporary 503 high demand
